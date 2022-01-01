@@ -23,11 +23,9 @@ const ApiCall = () => {
     },[])
 
     return(
-        <div>
-            <ResponseIdsContext.Provider value={postIds}>
-                <ApiCallById/>
-            </ResponseIdsContext.Provider>
-        </div>
+        <ResponseIdsContext.Provider value={postIds}>
+            <ApiCallById/>
+        </ResponseIdsContext.Provider>
     )
 }
 

@@ -47,7 +47,6 @@ const ApiCallById = () => {
                 </div>
             )
     )
-
 }
 
 export default ApiCallById;
